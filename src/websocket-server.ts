@@ -31,7 +31,7 @@ export class WebsocketServer {
   gameSize: number = 2;
 
   constructor() {
-    this.wss = new Server(8080);
+    this.wss = new Server(+(process.env.WEBSOCKET_PORT || '8080'));
     this.setupSocketEvents();
   }
 
