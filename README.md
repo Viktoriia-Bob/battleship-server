@@ -2,7 +2,7 @@
 
 ## Description
 
-Server for clients for battleship game.
+Server for [clients](https://github.com/Viktoriia-Bob/battleship-client) for battleship game.
 
 ## Installation
 
